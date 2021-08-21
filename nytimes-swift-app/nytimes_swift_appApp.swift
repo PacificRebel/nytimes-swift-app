@@ -8,6 +8,7 @@
 import SwiftUI
 
 @main
+//this indicates the app's entry point
 struct nytimes_swift_appApp: App {
     var body: some Scene {
         WindowGroup {

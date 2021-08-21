@@ -9,8 +9,27 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack {
+            VStack {
+                VStack(alignment: .center) {
+                    Text("New York Times Top Stories")
+                        .font(.title2)
+                        .fontWeight(.bold)
+                        .foregroundColor(Color.black)
+                        .multilineTextAlignment(.center)
+                        .padding()
+                }
+                HStack {
+                    Text("copyright NY Times")
+                        .font(.subheadline)
+                        .fontWeight(.light)
+                    Text("2021")
+                        .font(.subheadline)
+                        .fontWeight(.light)
+                }
+            }
+            
+        }
     }
 }
 
