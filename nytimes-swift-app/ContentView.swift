@@ -9,7 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack(alignment: .leading) {
+        VStack {
+            MapView()
+                .ignoresSafeArea(edges: .top)
+                .frame(height: 300)
+            
+            CircleImage()
+                .offset(y: -130)
+                .padding(.bottom, -130)
+            
+            VStack(alignment: .leading) {
                     Text("New York Times Top Stories")
                         .font(.title2)
                         .fontWeight(.bold)
@@ -17,17 +26,24 @@ struct ContentView: View {
                 
                 HStack {
                     Text("copyright NY Times")
-                        .font(.subheadline)
-                        .fontWeight(.light)
-                   
+                                   
                     Spacer()
                     Text("2021")
-                        .font(.subheadline)
-                        .fontWeight(.light)
+                    
                 }
+                .font(.subheadline)
+                .foregroundColor(.secondary)
+                
+                Divider()
+                
+                Text("About the NY Times")
+                    .font(.title3)
+                Text("Descriptive text here")
             }
-        .padding()
-        
+            .padding()
+
+            Spacer()
+        }
     }
 }
 
