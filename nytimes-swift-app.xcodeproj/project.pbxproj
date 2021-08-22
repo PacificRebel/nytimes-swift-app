@@ -13,6 +13,7 @@
 		AFFB858E26D1582B001A9ED7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFFB858D26D1582B001A9ED7 /* Preview Assets.xcassets */; };
 		AFFB859926D1582B001A9ED7 /* nytimes_swift_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFB859826D1582B001A9ED7 /* nytimes_swift_appTests.swift */; };
 		AFFB85A426D1582B001A9ED7 /* nytimes_swift_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFB85A326D1582B001A9ED7 /* nytimes_swift_appUITests.swift */; };
+		AFFB85B226D25296001A9ED7 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFB85B126D25296001A9ED7 /* CircleImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		AFFB859F26D1582B001A9ED7 /* nytimes-swift-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "nytimes-swift-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFFB85A326D1582B001A9ED7 /* nytimes_swift_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nytimes_swift_appUITests.swift; sourceTree = "<group>"; };
 		AFFB85A526D1582B001A9ED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFFB85B126D25296001A9ED7 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				AFFB858626D15828001A9ED7 /* nytimes_swift_appApp.swift */,
 				AFFB858826D15828001A9ED7 /* ContentView.swift */,
 				AFFB858A26D1582B001A9ED7 /* Assets.xcassets */,
+				AFFB85B126D25296001A9ED7 /* CircleImage.swift */,
 				AFFB858F26D1582B001A9ED7 /* Info.plist */,
 				AFFB858C26D1582B001A9ED7 /* Preview Content */,
 			);
@@ -261,6 +264,7 @@
 			files = (
 				AFFB858926D15828001A9ED7 /* ContentView.swift in Sources */,
 				AFFB858726D15828001A9ED7 /* nytimes_swift_appApp.swift in Sources */,
+				AFFB85B226D25296001A9ED7 /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
